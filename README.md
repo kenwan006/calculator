@@ -15,7 +15,7 @@ The Calculator API provides endpoints for performing basic arithmetic operations
 
 ### Prerequisites
 
-- Java 17 or later
+- Java 8 or later
 - Maven 3.6.0 or later
 
 ### Installation
