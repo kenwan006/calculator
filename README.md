@@ -53,6 +53,11 @@ The Calculator API provides endpoints for performing basic arithmetic operations
 - `num1` (required): The first number.
 - `num2` (required): The second number.
 
+   **Example Request:**
+  ```bash
+  localhost:8080/api/calculator/calculate?operation=ADD&num1=2&num2=6
+  ```
+
 #### Responses:
 
 - `200 OK`: Returns the result of the calculation.
@@ -80,14 +85,26 @@ The Calculator API provides endpoints for performing basic arithmetic operations
 
 - **Content-Type:** `application/json`
 - **Schema:**
-
+  ```bash
+  localhost:8080/api/calculator/chain?initialValue=1
+  ```
   ```json
   {
     "operations": ["ADD", "MULTIPLY", "SUBTRACT"],
     "values": [3, 2, 5]
   }
   ```
+#### Responses:
 
+- `200 OK`: Returns the result of the calculation.
+
+  **Example Response:**
+
+  ```json
+  {
+    "result": 8
+  }
+  ```
 
 
 Feel free to adjust or expand this based on any additional details or specific formats required for your documentation.
