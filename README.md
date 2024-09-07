@@ -23,11 +23,11 @@ The Calculator API provides endpoints for performing basic arithmetic operations
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/calculator-api.git
+   git clone https://github.com/kenwan006/calculator.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd calculator-api
+   cd calculator
    ```
 3. Build the project using Maven:
    ```bash
