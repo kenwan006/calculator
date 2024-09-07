@@ -4,15 +4,15 @@ import org.example.calculator.entity.Operation;
 
 //encapsulate multiple operations and  enable chaining method on each operation
 public class OperationValues {
-    private Operation[] operations;
+    private String[] operations; // Operations are still strings to allow manual validation
     private Number[] values;
 
-    // Getters and Setters
-    public Operation[] getOperations() {
+    // Getters and setters
+    public String[] getOperations() {
         return operations;
     }
 
-    public void setOperations(Operation[] operations) {
+    public void setOperations(String[] operations) {
         this.operations = operations;
     }
 

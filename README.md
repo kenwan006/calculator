@@ -8,14 +8,14 @@ The Calculator API provides endpoints for performing basic arithmetic operations
 
 - **Basic Operations**: Supports `ADD`, `SUBTRACT`, `MULTIPLY`, and `DIVIDE`.
 - **Chaining Operations**: Apply multiple operations in sequence on a single value.
-- **OpenAPI Documentation**: Interactive API documentation provided by Swagger UI.(TO BE DONE)
+- **OpenAPI Documentation**: Interactive API documentation provided by OpenAPI(SwaggerUI)
 - **Error Handling**: Handles invalid operations and division by zero gracefully.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Java 8 or later
+- Java 17 or later
 - Maven 3.6.0 or later
 
 ### Installation
